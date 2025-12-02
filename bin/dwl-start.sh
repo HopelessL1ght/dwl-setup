@@ -19,6 +19,7 @@ mako &
 waybar &
 foot --server &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/home/ryan/.local/bin/autowallpaper.sh &
 
 for portal in xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal; do
    pkill -e "$portal"
