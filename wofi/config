@@ -1,0 +1,17 @@
+
+width=600
+height=500
+location=center
+show=drun
+prompt=~>
+filter_rate=100
+allow_markup=false
+no_actions=false
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitive=false
+allow_images=true
+image_size=40
+gtk_dark=true
+term=alacritty

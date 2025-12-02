@@ -1,0 +1,256 @@
+
+
+* {
+  font-family: Consolas;
+  border-radius: 30;
+  font-size: 16px;
+  padding: 2px;
+  background: transparent;
+}
+
+window#waybar {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 20px;
+  border-style: none;
+}
+
+
+#cpu
+#memory
+#tags button,
+#battery,
+#network,
+#clock,
+#custom-applauncher,
+#tray,
+#workspaces,
+#pulseaudio {
+  background-color: #1a1a25;
+  margin: 4px;
+  margin-right: 2px;
+  padding: 2px 8px;
+  border-radius: 30px;
+  color: #cccccf;
+
+  border-style: none;
+  transition-duration: 120ms;
+}
+
+#pulseaudio:hover {
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #cccccf;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#cpu{
+  background-color: #1a1a25;
+  color: #cccccf;
+  margin: 4px;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+  padding: 2px 8px;
+  border-radius: 30px;
+}
+
+#cpu:hover{
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #cccccf;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#cpu.state-10 {
+  color: #a3be8c;
+}
+
+#cpu.state-50 {
+  color: #ebcb8b;
+}
+
+#cpu.state-90 {
+  color: #bf616a;
+}
+
+
+
+#memory {
+  background-color: #1a1a25;
+  color: #cccccf;
+  margin: 4px;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+  padding: 2px 8px;
+  border-radius: 30px;
+}
+
+#memory:hover{
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #cccccf;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+ 
+}
+
+#network {
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  min-width: 0;
+  font-weight: bold;
+  color: #cccccf;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#network:hover{
+  background-color: #75778B;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #cccccf;
+
+}
+
+#clock {
+  background-color: #1a1a25;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#clock:hover{
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #cccccf;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#tags button {
+  background-color: #1a1a25;
+  color: #cccccf;
+  padding: 2px 2px;
+  margin-right: 6px;
+  
+}
+
+#tags button.occupied {
+  background-color: #1a1a25;
+  color: #837E8B;
+  
+}
+
+#tags button.focused {
+  background-color: #1a1a25;
+  color: #837E8B;
+}
+
+#tags button.urgent {
+  background-color: #1a1a25;
+  color: #E49186;
+}
+
+
+
+#custom-applauncher {
+  font-weight: bold;
+  padding: 2px 8px;
+  background-color: #1a1a25;
+  margin-right: 6px;
+  transition-duration: 120ms;
+}
+#custom-applauncher:hover {
+  background-image: linear-gradient(to bottom, #75778B 100%);
+  color: #cccccf;
+  transition-duration: 120ms;
+}
+
+#tray menu {
+  background-color: #1a1a25;
+  color: #cccccf;
+  margin: 4px;
+  margin-right: 2px;
+  padding: 2px 8px;
+  border-radius: 30px;
+}
+
+#tray menu:hover {
+  background-color: #1a1a25;
+  transition-duration: 100ms;
+  all: initial;
+  font-weight: bold;
+  min-width: 0;
+  color: #1a1a25;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+
+
+
+#tray menu menuitem {
+  background-color: #1a1a25;
+  font-weight: bold;
+  font-size: 16;
+  margin: 5px;
+  color: #cccccf;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #0A0A0D;
+}
+
+
+#workspaces button {
+  padding: 10px 10px;
+  transition-duration: 100ms;
+  all: initial;
+  min-width: 0;
+  font-weight: bold;
+  color: #cccccf;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color: #8B8A8D;
+}
+#workspaces button.focused {
+  color: #7D8094;
+  font-weight: bold;
+}
+#workspaces button.active {
+  color: #cccccf;
+  font-weight: bold;
+}
+#workspaces button.urgent {
+  color: #595866;
+}
+
+#battery {
+  background-color: #6E6D71;
+  color: #595866;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #595866;
+  background-color: #595866;
+}

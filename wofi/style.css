@@ -1,0 +1,72 @@
+* {
+  font-family: Consolas Mono;
+  background: transparent;
+  color: #cccccf;
+}
+
+#window {
+  color: #cccccf;
+  border-color: #cccccf;
+  border-style: solid;
+  border-width: 1px;
+
+  /*Linear gradient background instead of standard background, because it makes cleaner border-radius cuts, issa bug :p*/
+  background-image: linear-gradient(to bottom, #0A0A0D 100%);
+  border-radius: 10px;
+}
+#scroll {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #cccccf;
+}
+#inner-box {
+  padding-top: 12px;
+}
+#entry {
+  border-style: none;
+  border-color: #cccccf;
+  color: #cccccf;
+  padding: 6px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12;
+
+  border-radius: 12px;
+}
+
+#entry:selected {
+  background: #0A0A0D;
+  color: #cccccf;
+  font-weight: bold;
+  outline: none;
+}
+
+#input {
+  background-color: #0A0A0D;
+  color: #cccccf;
+  border-color: #cccccf;
+
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+
+  font-style: normal;
+
+  border-radius: 8;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  padding: 12px;
+  margin: 8px;
+}
+#input:focus {
+  background: #0A0A0D;
+  background-color: #0A0A0D;
+  border-color: #837E8B;
+  font-style: italic;
+}
+
+#img {
+  padding: 4px;
+  margin-right: 6px;
+}
