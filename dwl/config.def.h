@@ -30,6 +30,8 @@ static const Rule rules[] = {
 	{ "Alacritty",     NULL,       		0,            	1,           -1 }, /* Start on currently visible tags floating, not tiled */
 	{ "Brave",     NULL,       		0,            	1,           -1 }, /* Start on currently visible tags floating, not tiled */
 	{ "steam",     NULL,       		0,            	1,           -1 }, /* Start on currently visible tags floating, not tiled */
+	{ "nemo",     NULL,       		0,            	1,           -1 }, /* Start on currently visible tags floating, not tiled */
+	{ "prismlauncher",     NULL,       		0,            	1,           -1 }, /* Start on currently visible tags floating, not tiled */
 	{ "nothing app",  			NULL,       1 << 8,      		 1,           -1 }, /* Start on ONLY tag "9" */
 };
 
